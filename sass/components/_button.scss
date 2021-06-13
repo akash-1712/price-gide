@@ -9,7 +9,7 @@
   font-size: 1.5rem;
   font-weight: 700;
   position: relative;
-  // overflow: hidden;
+  overflow: hidden;
   cursor: pointer;
   z-index: 1;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
@@ -27,6 +27,8 @@
     transition: all 0.5s;
     z-index: -1;
     border-radius: 50px;
+
+    transition: width 1.5s;
   }
   &:hover {
     color: $Bright-Yellow;
@@ -34,6 +36,7 @@
   }
   &:hover::before {
     width: 100%;
+    transition: width 1s;
   }
 
   &:active {
