@@ -1,0 +1,24 @@
+.heading-primary {
+  font-size: 2.5rem;
+  font-weight: 700;
+  @media only screen and (max-width: 35em) {
+    font-size: 2.1rem;
+  }
+}
+.heading-secondary {
+  @media only screen and (max-width: 35em) {
+    font-size: 1.37rem;
+  }
+}
+.paragraph {
+  font-size: 1.5rem;
+  font-weight: 500;
+  @media only screen and (max-width: 35em) {
+    font-size: 1.1rem;
+  }
+}
+span {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: rgba($Light-Gray, 0.8);
+}

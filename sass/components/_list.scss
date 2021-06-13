@@ -1,0 +1,13 @@
+.list {
+  list-style: none;
+  margin-top: 1.5rem;
+  &-items {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba($Light-Gray, 0.8);
+
+    @media only screen and (max-width: 35em) {
+      font-size: 1rem;
+    }
+  }
+}
